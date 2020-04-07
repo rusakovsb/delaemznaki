@@ -1,0 +1,5 @@
+# Schema for the configuration files.
+
+dz.settings:
+  type: dz_settings
+  label: 'DZ settings'

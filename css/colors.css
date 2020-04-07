@@ -1,0 +1,122 @@
+/*-------------------------------------------*
+/* Colors
+/*-------------------------------------------*/
+
+body {
+    background: #fff;
+	color: #000;
+}
+
+#header {
+	background-color: #9f293f;	
+	background-image: url(../images/header.png);
+	background-position: 0 0;
+	background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.region-sidebar,
+.region-header,
+#mobile-panel  {
+	color: #fff;
+}
+
+#sidebar,
+.button,
+#mobile-panel {
+    background: #298d9f;
+}
+
+a {
+    color: #298d9f;
+}
+
+a:hover {
+    color: #2e9fb3;
+}
+
+.menu--main a,
+.menu--catalog a,
+#mobile-panel a {
+    color: #fff;
+}
+
+.menu--catalog a {
+    border-bottom: 2px solid;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.menu--catalog ul.menu li a:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.menu--catalog ul.menu li a.is-active {
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.menu--main ul.menu li a:after,
+#menu-icon span,
+#menu-close-icon span {
+    background: #fff;
+}
+
+textarea,
+select,
+input.form-text,
+input.form-email {
+    border: 2px solid #d9d9d9;
+}
+
+textarea:focus,
+select:focus,
+input.form-text:focus,
+input.form-email:focus {
+    border: 2px solid #298d9f;
+}
+
+.button {
+    color: #fff; 
+}
+
+.button:hover {
+	background: #2e9fb3;
+    color: #fff;
+}
+
+ul.tabs {
+	background: #efefef;
+    border-bottom: 2px solid #298d9f;
+}
+
+.catalog-item:after,
+.node__content ul li:before {
+    background: #000;
+}
+
+.catalog-item__title a {
+    color: #000;
+}
+
+#footer {
+    background: #146473;
+}
+
+#footer,
+#footer a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#footer a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
