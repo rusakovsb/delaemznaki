@@ -164,7 +164,11 @@ h6 {
 /*-------------------------------------------*/
 
 #header {
-    padding: 45px 60px 45px 400px;
+    padding: 0 60px 0 400px;
+}
+
+.region-header {
+    min-height: 180px;
 }
 
 .region-header,
@@ -229,13 +233,17 @@ h6 {
     line-height: 1.5;
 }
 
+#block-header-contacts {
+    font-size: 30px;
+}
+
 /*-------------------------------------------*
 /* Site Branding
 /*-------------------------------------------*/
 
 .site-logo a {
     display: block;
-    width: 270px;
+    width: 330px;
 }
 
 .site-name {
